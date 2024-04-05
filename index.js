@@ -7,7 +7,7 @@ const selectPlan = (planNumber) => {
     selectedPlan.classList.add("plan--selected");
 }
 
-selectPlan(1);
+selectPlan(3);
 
 
 // Vytvořte si repozitář ze šablony cviceni-cenik se stránkou, která nabízí předplatné za nějaké služby. Může jít například o internetovou televizi, pravidelné dovážky jídla nebo třeba webový hosting.
