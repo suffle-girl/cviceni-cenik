@@ -1,5 +1,13 @@
 
+const selectPlan = (planNumber) => {
+    const deselectPlan = document.getElementsByClassName("plan")[0, 1, 2];
+    deselectPlan.classList.remove("plan--selected");
 
+    const selectedPlan = document.querySelector("#plan" + planNumber);
+    selectedPlan.classList.add("plan--selected");
+}
+
+selectPlan(1);
 
 
 // Vytvořte si repozitář ze šablony cviceni-cenik se stránkou, která nabízí předplatné za nějaké služby. Může jít například o internetovou televizi, pravidelné dovážky jídla nebo třeba webový hosting.
